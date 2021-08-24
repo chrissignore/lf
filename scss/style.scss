@@ -1,0 +1,90 @@
+// SCSS TOOLS FOR MULTIPLE PAGES //
+@import
+'../scss/global/fonts', //font imports
+'../scss/global/colors', // std color pallet
+'../scss/global/buttons', //standard pg btns
+'../scss/global/header-footer/header',
+'../scss/global/page-profile',
+'../scss/marketplace/ad-post';
+
+.first--section-bubble{
+   margin-top: 2.5rem;
+   display: flex;
+   justify-content: center;
+   animation: fadeIn ease 1.5s;
+   @keyframes fadeIn {
+      0% {opacity:.25;}
+      100% {opacity:1;}
+   }
+
+      .team-cards{
+         display:flex;
+         flex-wrap:nowrap;
+         flex-direction: column;
+         h1{
+            font-family: bold;
+         }
+         .box{
+            display: grid;
+            width:18rem;
+            height: 8.5rem;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 2.075rem;
+            margin: .5rem 0;
+             
+            button {
+               margin-top: 0.5rem;
+           
+               @include glow-effect-btn-sq();
+           
+               border-radius: 1rem;
+               font-size: 1rem;
+               color: $dark-purple;
+               font-family: bold;
+           
+               &:hover {
+                 transition: ease-in-out 0.35s;
+                 transform: rotate(1.5deg) scale(1.125);
+               }
+             }
+
+                  } 
+                
+               }
+         }
+
+
+.first-bday-section-bubble{
+   margin-top: 2.5rem;
+   display: flex;
+   justify-content: center;
+   animation: fadeIn ease 1.5s;
+   @keyframes fadeIn {
+      0% {opacity:.25;}
+      100% {opacity:1;}
+   }
+
+      .team-cards{
+         display:flex;
+         flex-wrap:nowrap;
+         flex-direction: column;
+         h1{
+            font-family: bold;
+         }
+         .box{
+            margin: .5rem 0;
+            width:30rem;
+   
+            p{
+               padding-bottom: 1.5rem;
+            }
+                  } 
+                
+               }
+         }
+
+         
+         
+         
+         
