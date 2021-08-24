@@ -21,6 +21,7 @@
          display:flex;
          flex-wrap:nowrap;
          flex-direction: column;
+
          h1{
             font-family: bold;
          }
@@ -56,7 +57,7 @@
 
 
 .first-bday-section-bubble{
-   margin-top: 2.5rem;
+   margin-top: 1.5rem;
    display: flex;
    justify-content: center;
    animation: fadeIn ease 1.5s;
@@ -69,6 +70,11 @@
          display:flex;
          flex-wrap:nowrap;
          flex-direction: column;
+         img{
+            margin-bottom: 1rem;
+            width:16rem;
+            border-radius: 1rem;
+         }
          h1{
             font-family: bold;
          }

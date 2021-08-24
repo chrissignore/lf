@@ -1007,7 +1007,7 @@ button {
 }
 
 .first-bday-section-bubble {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1037,6 +1037,12 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.first-bday-section-bubble .team-cards img {
+  margin-bottom: 1rem;
+  width: 16rem;
+  border-radius: 1rem;
 }
 
 .first-bday-section-bubble .team-cards h1 {
